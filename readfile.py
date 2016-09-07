@@ -1,6 +1,7 @@
 def main():
+	
 	#read file
-	file = open( "Yesno.txt", "r")
+	file = open( "yesno.txt", "r")
 	lines = file.readlines()
 	file.close()
 
