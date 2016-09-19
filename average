@@ -1,9 +1,0 @@
-x = []
-while True:
-    i = input('enter a number: ')
-    if i == 'done' : break
-    value = float(i)
-    x.append(value)
-
-average = sum(x)/len(x)
-print ('average:', average)
